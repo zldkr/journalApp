@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.yml
+*.log
+
+### Local credentials and machine-specific files ###
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.run/
+.postman/
+postman/
+
+### Share safe Spring configuration and examples ###
+!src/main/resources/application.yml
+!src/main/resources/application-dev.example.yml
+!src/main/resources/application-prod.example.yml
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/htmlReport
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
