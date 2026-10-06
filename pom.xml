@@ -15,7 +15,6 @@
 	<description>E2EE Journal App</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
 		<sonar.organization>zldkr</sonar.organization>
 	</properties>
 	<dependencies>
